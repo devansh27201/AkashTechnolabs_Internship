@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <title>Registration Form using Div and Table.</title>
+  </head>
+
+	<body bgcolor="#F0F8FF">
+    
+
+	<div id="main">
+	<div class="h-tag">
+	<h2>Registration Form</h2>
+	</div>
+	
+	<div class="register">
+	<table cellspacing="2" align="center" cellpadding="8" border="0">
+	<tr>
+	<td align="right">Enter Full Name :</td>
+	<td><input type="text" placeholder="Enter your FullName here" id="t1" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Email ID :</td>
+	<td><input type="text" placeholder="Enter Email ID here" id="t2" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Username :</td>
+	<td><input type="text" placeholder="Enter Username here" id="t3" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Password :</td>
+	<td><input type="password" placeholder="Enter Password here" id="t4" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="right">Enter Confirm Password :</td>
+	<td><input type="password" placeholder="Enter Password here" id="t5" class="tb" /></td>
+	</tr>
+    <tr>
+        <td align="right">Phone Number:</td>
+        <td><input type="number" placeholder="country code"  class="tb" id="t6"/>   
+            <input type="tel" placeholder="phone" size="10"/> <br> <br>  </td>
+        </tr>
+    <tr>
+        <td align="right">Gender:</td>
+        <td><input type="radio" name="male"/> Male <br>  
+            <input type="radio" name="female"/> Female <br>  
+            <input type="radio" name="other"/> Other  
+            <br>  </td>
+        </tr>
+        <tr>
+            <td align="right">Courses We Offer:</td>
+            <td><select>
+                <option value="Course">Course</option>  
+    <option value="BCA">BCA</option>  
+    <option value="BBA">BBA</option>  
+    <option value="B.Tech">B.Tech</option>  
+    <option value="MBA">MBA</option>  
+    <option value="MCA">MCA</option>  
+    <option value="M.Tech">M.Tech</optio>
+            </select> </td>
+            </tr>
+	<tr>
+	<td></td>
+	<td>
+	<input type="reset" value="Clear Form" onclick="clearFunc()" id="res" class="btn" />
+	<input type="submit" value="Create Account" class="btn" onclick="registration()" /></td>
+	</tr>
+	
+    
+        
+    </div>
+	</div>
+	
+	</div>
+    </table>
+	</body>
+	</html>
